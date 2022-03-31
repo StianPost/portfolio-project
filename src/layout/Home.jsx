@@ -8,7 +8,7 @@ function Home() {
     <>
       <h1>Hello!</h1>
       <h2>Me, a front-end dev</h2>
-      <div className='lg:flex justify-between mb-3'>
+      <div className='md:flex justify-between mb-3'>
         <div>
           <div>
             <div className='flex mt-4'>

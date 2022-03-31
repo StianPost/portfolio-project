@@ -33,7 +33,7 @@ function App() {
           </nav>
         </div>
       </header>
-      <main className='px-10 bg-gray-900 text-white pt-10 m-auto '>
+      <main className='px-2 sm:px-10 bg-gray-900 text-white pt-10 m-auto '>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='projects' element={<Projects />} />
