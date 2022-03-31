@@ -22,6 +22,10 @@ function Home() {
                 className='text-7xl text-purple-400 mr-4'
               />
               <Icon
+                icon='file-icons:tailwind'
+                className='text-7xl text-purple-400 mr-4'
+              />
+              <Icon
                 icon='file-icons:tsx-alt'
                 className='text-7xl text-purple-400 mr-4'
               />
@@ -40,19 +44,51 @@ function Home() {
               design I prefer a more minimalistic and clean design.
             </p>
             <p className='pt-5 text-xl'>
-              So far the only languages that I know is Html, CSS3 and JS, though
-              I am looking forwards to learning new and more advanced tricks in
-              the future. I am by no means a master but I am eager to learn.
+              So far I've learned allot, from regular HTML5 and CSS3 to
+              frameworks like React, NextJS and SCSS(for styling), I am still
+              learning and will continue to do so. There's lots of tricks to
+              learn after all.
             </p>
             <p className='pt-5 text-xl'>
-              At this point in time I am done with my first year on Noroff, some
-              of the school related projects that I have done is on my projects
-              page. There's also some other small projects that I did for fun.
+              At this point I am finishing up with my time at Noroff, though
+              I've enjoyed my time with front-end I am leaning more towards
+              learning more back-end subjects. So I'll be trying to develop
+              myself as a fullstack developer as I am looking for a wonderful
+              place to work.
+            </p>
+            <p className='pt-5 text-xl'>
+              Please have a look at my projects, they're most school projects,
+              but more fun and interesting things will pop up soon.
             </p>
           </div>
         </div>
         <div>
           <img src={avatar} alt='Avatar of yours truly, Stian Post' />
+        </div>
+      </div>
+      <div className='flex flex-col items-center'>
+        <h3 className='mb-3'>Contact</h3>
+        <div className='bg-gray-800 w-full max-w-xl p-4 shadow-lg shadow-black mb-10'>
+          <h4 className='text-center pb-3'>
+            Here is more place with me in it!
+          </h4>
+          <div className='flex justify-center'>
+            <Icon
+              icon='akar-icons:github-fill'
+              className='text-7xl text-purple-400 mr-4'
+            />
+            <Icon
+              icon='akar-icons:linkedin-box-fill'
+              className='text-7xl text-purple-400 mr-4'
+            />
+          </div>
+          <div className='flex justify-center items-center'>
+            <Icon
+              icon='fontisto:email'
+              className='text-7xl text-purple-400 mr-4'
+            />
+            <p className='items-center'>stianpost@hotmail.com</p>
+          </div>
         </div>
       </div>
     </>

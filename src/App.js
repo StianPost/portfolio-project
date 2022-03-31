@@ -1,6 +1,6 @@
 import './App.css';
 
-import { Link, Route, Routes } from 'react-router-dom';
+import { Link, NavLink, Route, Routes } from 'react-router-dom';
 
 import Home from './layout/Home';
 import Projects from './layout/Projects';
@@ -18,16 +18,24 @@ function App() {
         </div>
         <div>
           <nav>
-            <ul className='flex'>
-              <li>
-                <Link className='text-purple-400 hover:text-purple-400' to='/'>
+            <ul className='flex text-lg font-medium'>
+              <li className='hover:text-purple-400'>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? 'text-purple-400' : ''
+                  }
+                  to='/'>
                   Home
-                </Link>
+                </NavLink>
               </li>
-              <li>
-                <Link className='ml-2 hover:text-purple-400' to='/projects'>
+              <li className='ml-2 hover:text-purple-400'>
+                <NavLink
+                  className={({ isActive }) =>
+                    isActive ? 'text-purple-400' : ''
+                  }
+                  to='/projects'>
                   Projects
-                </Link>
+                </NavLink>
               </li>
             </ul>
           </nav>
