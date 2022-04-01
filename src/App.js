@@ -4,8 +4,10 @@ import { Link, NavLink, Route, Routes } from 'react-router-dom';
 
 import Home from './layout/Home';
 import Projects from './layout/Projects';
-// import logo from './logo.svg';
 import logo from './img/logo.png';
+
+// import logo from './logo.svg';
+
 
 function App() {
   return (
@@ -24,7 +26,8 @@ function App() {
                   className={({ isActive }) =>
                     isActive ? 'text-purple-400' : ''
                   }
-                  to='/'>
+                  to='/'
+                >
                   Home
                 </NavLink>
               </li>
@@ -33,7 +36,8 @@ function App() {
                   className={({ isActive }) =>
                     isActive ? 'text-purple-400' : ''
                   }
-                  to='/projects'>
+                  to='/projects'
+                >
                   Projects
                 </NavLink>
               </li>

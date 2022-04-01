@@ -4,6 +4,7 @@ import { Icon } from '@iconify/react';
 import avatar from '../img/avataaars.png';
 
 function Home() {
+  const email = 'stianpost@hotmail.com';
   return (
     <>
       <h1>Hello!</h1>
@@ -70,24 +71,29 @@ function Home() {
         <h3 className='mb-3'>Contact</h3>
         <div className='bg-gray-800 w-full max-w-xl p-4 shadow-lg shadow-black mb-10'>
           <h4 className='text-center pb-3'>
-            Here is more place with me in it!
+            Here is more places with me in it!
           </h4>
           <div className='flex justify-center'>
+            <a href='https://github.com/StianPost'>
+              <Icon
+                icon='akar-icons:github-fill'
+                className='text-7xl text-purple-400 mr-4'
+              />
+            </a>
+            <a href='https://www.linkedin.com/in/stian-post-a211201b5/'>
+              <Icon
+                icon='akar-icons:linkedin-box-fill'
+                className='text-7xl text-purple-400 mr-4'
+              />
+            </a>
             <Icon
-              icon='akar-icons:github-fill'
-              className='text-7xl text-purple-400 mr-4'
-            />
-            <Icon
-              icon='akar-icons:linkedin-box-fill'
-              className='text-7xl text-purple-400 mr-4'
-            />
-          </div>
-          <div className='flex justify-center items-center'>
-            <Icon
+              onClick={() => {
+                navigator.clipboard.writeText(email);
+                alert('You copied my email: Stianpost@hotmail.com');
+              }}
               icon='fontisto:email'
-              className='text-7xl text-purple-400 mr-4'
+              className='text-7xl text-purple-400 mr-4 hover:cursor-pointer'
             />
-            <p className='items-center'>stianpost@hotmail.com</p>
           </div>
         </div>
       </div>
