@@ -4,12 +4,12 @@ import React from 'react';
 function Projects() {
   const projArray = [
     {
-      img: 'https://via.placeholder.com/1900x900.png?text=No+Image',
+      img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/y2-proj-exam.png',
       title: 'Year 2 Project Exam (current project)',
       text: 'The project that I am currently invested in, for the time being I am designing it. It will be built using either React or NextJS',
     },
     {
-      img: 'https://via.placeholder.com/1900x900.png?text=No+Image',
+      img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/1900x900.png',
       title: 'JS Frameworks Course Assignment',
       text: 'A task where we used NextJS, routing and authentication(as a login option) to display different information depending on which card you clicked on. Made using NextJS and TailwindCSS(Very basic design)',
       links: 'https://github.com/StianPost/js-frameworks-ca-stian-post',
