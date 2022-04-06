@@ -22,6 +22,11 @@ function Projects() {
       link2: 'https://stupefied-lovelace-7e9d44.netlify.app/',
     },
     {
+      img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/osu-varsel.png',
+      title: 'Osu Varsel',
+      text: 'An email-notification website that I built in co-operation with Daytwo as a small project on the side while doing the semester project. It was built using Craft CMS, I made most of the html and css/scss code for the website',
+    },
+    {
       img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/react.jpg',
       title: 'CSS Frameworks Course Assignment',
       text: 'The first project I made using react and SCSS, I did not make the design for this page but was told to make it as true to form as possible, this was also accomplished using bootstrap',
