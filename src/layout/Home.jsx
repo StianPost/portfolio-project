@@ -1,6 +1,7 @@
 import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa';
 
 import { Icon } from '@iconify/react';
+import Tooltip from '@mui/material/Tooltip';
 import avatar from '../img/avataaars.png';
 
 function Home() {
@@ -86,14 +87,16 @@ function Home() {
                 className='text-7xl text-purple-400 mr-4'
               />
             </a>
-            <Icon
-              onClick={() => {
-                navigator.clipboard.writeText(email);
-                alert('You copied my email: Stianpost@hotmail.com');
-              }}
-              icon='fontisto:email'
-              className='text-7xl text-purple-400 mr-4 hover:cursor-pointer'
-            />
+            <Tooltip title='Click to copy' placement='right' arrow>
+              <Icon
+                onClick={() => {
+                  navigator.clipboard.writeText(email);
+                  alert('You copied my email: Stianpost@hotmail.com');
+                }}
+                icon='ci:mail-open'
+                className='text-7xl text-purple-400 mr-4 hover:cursor-pointer'
+              />
+            </Tooltip>
           </div>
         </div>
       </div>
