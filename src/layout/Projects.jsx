@@ -44,9 +44,17 @@ function Projects() {
     <div>
       <h1 className='text-center'>Projects</h1>
       <div className='flex flex-col items-center mt-8'>
-      {projArray.map(({ img, title, text, links }) => {
-        return <Projcard key={title} titleprop={title} imgprop={img} textprop={text} linkprop={links} />;
-      })}
+        {projArray.map(({ img, title, text, links }) => {
+          return (
+            <Projcard
+              key={title}
+              titleprop={title}
+              imgprop={img}
+              textprop={text}
+              linkprop={links}
+            />
+          );
+        })}
       </div>
     </div>
   );
