@@ -4,10 +4,16 @@ import React from 'react';
 function Projects() {
   const projArray = [
     {
+      img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/1900x900.png',
+      title: 'Twitch Project (Hobby / current project)',
+      text: "The current project that I am working on, this will be a twitch dashboard that I'll be creating using React, Tailwind and RestApi from Twitch. I am still figuring out what info to display, it depends on what info I can get.",
+    },
+    {
       img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/y2-proj-exam.png',
-      title: 'Year 2 Project Exam (current project)',
-      text: 'The project that I am currently invested in, for the time being I am designing it. It will be built using either React or NextJS',
+      title: 'Year 2 Project Exam',
+      text: "This is my final project on Noroff. My project exam, it's a cabin booking site. It's built using NextJs, Tailwind and SCSS for the front-end and strapi (hosted on heroku) for the backend.",
       links: 'https://github.com/StianPost/Project-Exam-Year-2-Stian-Post',
+      link2: 'https://cabin-fever.netlify.app/',
     },
     {
       img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/1900x900.png',

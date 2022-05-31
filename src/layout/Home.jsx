@@ -47,9 +47,9 @@ function Home() {
             </p>
             <p className='pt-5 text-xl'>
               So far I've learned allot, from regular HTML5 and CSS3 to
-              frameworks like React, NextJS and SCSS(for styling), I am still
-              learning and will continue to do so. There's lots of tricks to
-              learn after all.
+              frameworks/extentions like React, NextJS, Tailwind and SCSS(for
+              styling), I am still learning and will continue to do so. There's
+              lots of tricks to learn after all.
             </p>
             <p className='pt-5 text-xl'>
               At this point I am finishing up with my time at Noroff, though
