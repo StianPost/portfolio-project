@@ -1,6 +1,8 @@
 import { FaCss3Alt, FaHtml5, FaJsSquare, FaReact } from 'react-icons/fa';
 
 import { Icon } from '@iconify/react';
+import { Link } from 'react-router-dom';
+import Projects from './Projects';
 import Tooltip from '@mui/material/Tooltip';
 import avatar from '../img/avataaars.png';
 
@@ -62,6 +64,17 @@ function Home() {
               Please have a look at my projects, they're most school projects,
               but more fun and interesting things will pop up soon.
             </p>
+            <div className='flex pt-5 items-end text-2xl text-purple-400'>
+              <Link
+                onClick={() => {
+                  window.scrollTo(0, 0);
+                }}
+                to='/projects'
+              >
+                View my <span className='underline'>Projects</span> here
+              </Link>
+              <Icon className='ml-2 text-3xl' icon='bxs:left-arrow-alt' />
+            </div>
           </div>
         </div>
         <div>

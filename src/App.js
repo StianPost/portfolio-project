@@ -8,7 +8,6 @@ import logo from './img/logo.png';
 
 // import logo from './logo.svg';
 
-
 function App() {
   return (
     <div className=''>
@@ -20,7 +19,7 @@ function App() {
         </div>
         <div>
           <nav>
-            <ul className='flex text-lg font-medium'>
+            <ul className='flex text-2xl font-medium'>
               <li className='hover:text-purple-400'>
                 <NavLink
                   className={({ isActive }) =>
@@ -31,7 +30,7 @@ function App() {
                   Home
                 </NavLink>
               </li>
-              <li className='ml-2 hover:text-purple-400'>
+              <li className='ml-5 hover:text-purple-400'>
                 <NavLink
                   className={({ isActive }) =>
                     isActive ? 'text-purple-400' : ''
