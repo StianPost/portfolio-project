@@ -18,7 +18,7 @@ function Projects() {
       link2: 'https://cabin-fever.netlify.app/',
       figma: true,
       scss: true,
-      javascript: true,
+      typescript: true,
       next: true,
       tailwind: true,
     },

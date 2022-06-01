@@ -63,6 +63,12 @@ function Projcard({
             ) : (
               ''
             )}
+            {react ? (
+              <Icon className='ml-3 mt-2' icon='akar-icons:react-fill' />
+            ) : (
+              ''
+            )}
+            {next ? <Icon className='ml-3 mt-2' icon='cib:next-js' /> : ''}
             {css ? (
               <Icon className='ml-3 mt-2' icon='akar-icons:css-fill' />
             ) : (
@@ -83,12 +89,6 @@ function Projcard({
             ) : (
               ''
             )}
-            {react ? (
-              <Icon className='ml-3 mt-2' icon='akar-icons:react-fill' />
-            ) : (
-              ''
-            )}
-            {next ? <Icon className='ml-3 mt-2' icon='cib:next-js' /> : ''}
             {tailwind ? (
               <Icon className='ml-3 mt-2' icon='bxl:tailwind-css' />
             ) : (
