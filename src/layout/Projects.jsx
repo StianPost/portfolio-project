@@ -5,8 +5,16 @@ function Projects() {
   const projArray = [
     {
       img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/1900x900.png',
-      title: 'Twitch Project (Hobby / current project)',
-      text: "The current project that I am working on, this will be a twitch dashboard that I'll be creating using React, Tailwind and RestApi from Twitch. I am still figuring out what info to display, it depends on what info I can get.",
+      title: 'Avtalespesialist (Hobby / current project)',
+      text: "The current project that I am working on, it's a website where you can find services nearby, sorting by districts and services. It's built using React",
+      react: true,
+      tailwind: true,
+      scss: true,
+    },
+    {
+      img: 'https://hopeful-sinoussi-ede96f.netlify.app/Postfolio%20imgs/1900x900.png',
+      title: 'Twitch Project (Hobby / hiatus)',
+      text: "A project that I am working on, this will be a twitch dashboard that I'll be creating using React, Tailwind and RestApi from Twitch. I am still figuring out what info to display, it depends on what info I can get.",
       react: true,
       tailwind: true,
     },
